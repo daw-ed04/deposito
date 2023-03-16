@@ -34,8 +34,8 @@ public class CCuenta {
     }
 
     /**
-     * Método constructor mediante el que se inicilizan
-     * los atributos de la clase
+     * Método constructor mediante el que se 
+     * inicializan los atributos de la clase
      * 
      * @param nom - nombre del propietario
      * @param cue - número de cuenta
