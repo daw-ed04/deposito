@@ -4,11 +4,9 @@
  * and open the template in the editor.
  */
 
-
 package cuentas;
 
 import cuentas.CCuenta;
-
 
 public class Main {
 
