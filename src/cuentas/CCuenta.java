@@ -54,7 +54,7 @@ public class CCuenta {
      * 
      * @deprecated 
      * @see CCuenta#setNombre(String) 
-     * @param nom - nombre del propietario
+     * @param nom nombre del propietario
      */
     public void asignarNombre(String nom)
     {
