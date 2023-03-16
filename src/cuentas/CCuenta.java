@@ -89,7 +89,7 @@ public class CCuenta {
      * Método para ingresar dinero en la cuenta
      * 
      * @param cantidad
-     * @throws Exception 
+     * @throws Exception - cantidad a ingresar negativa
      */
     public void ingresar(double cantidad) throws Exception
     {
@@ -102,7 +102,7 @@ public class CCuenta {
      * Método para retirar dinero de la cuenta
      * 
      * @param cantidad
-     * @throws Exception 
+     * @throws Exception - cantidad a retirar negativa o saldo insuficiente
      */
     public void retirar(double cantidad) throws Exception
     {
