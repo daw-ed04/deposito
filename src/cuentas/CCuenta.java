@@ -52,7 +52,7 @@ public class CCuenta {
     /**
      * Establece el nombre del propietario
      * 
-     * @deprecated 
+     * @deprecated utilizar setNombre()
      * @see CCuenta#setNombre(String) 
      * @param nom nombre del propietario
      */
@@ -64,7 +64,7 @@ public class CCuenta {
     /**
      * Obtiene el nombre del propietario
      * 
-     * @deprecated 
+     * @deprecated utilizar getNombre()
      * @see CCuenta#getNombre()
      * @return nombre del propietario 
      */
@@ -76,7 +76,7 @@ public class CCuenta {
     /**
      * Devuelve el saldo de la cuenta
      * 
-     * @deprecated 
+     * @deprecated utilizar getSaldo()
      * @see CCuenta#getSaldo()
      * @return saldo
      */
@@ -116,7 +116,7 @@ public class CCuenta {
     /**
      * Obtiene el número de la cuenta
      * 
-     * @deprecated 
+     * @deprecated utilizar getCuenta()
      * @see CCuenta#getCuenta() 
      * @return número de cuenta 
      */
