@@ -9,7 +9,7 @@ package cuentas;
  * Gestiona los datos de una cuenta bancaria y
  * las operaciones que se realizan en ella
  * 
- * @author DAW ED04
+ * @author anónimo
  * @version 0.1
  */
 public class CCuenta {
