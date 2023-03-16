@@ -37,10 +37,10 @@ public class CCuenta {
      * Método constructor mediante el que se 
      * inicializan los atributos de la clase
      * 
-     * @param nom - nombre del propietario
-     * @param cue - número de cuenta
-     * @param sal - saldo
-     * @param tipo - tipo de interés
+     * @param nom nombre del propietario
+     * @param cue número de cuenta
+     * @param sal saldo
+     * @param tipo tipo de interés
      */
     public CCuenta(String nom, String cue, double sal, double tipo)
     {
@@ -66,7 +66,7 @@ public class CCuenta {
      * 
      * @deprecated 
      * @see CCuenta#getNombre()
-     * @return - nombre del propietario 
+     * @return nombre del propietario 
      */
     public String obtenerNombre()
     {
@@ -78,7 +78,7 @@ public class CCuenta {
      * 
      * @deprecated 
      * @see CCuenta#getSaldo()
-     * @return - saldo
+     * @return saldo
      */
     public double estado()
     {
@@ -89,7 +89,7 @@ public class CCuenta {
      * Método para ingresar dinero en la cuenta
      * 
      * @param cantidad
-     * @throws Exception - cantidad a ingresar negativa
+     * @throws Exception cantidad a ingresar negativa
      */
     public void ingresar(double cantidad) throws Exception
     {
@@ -102,7 +102,7 @@ public class CCuenta {
      * Método para retirar dinero de la cuenta
      * 
      * @param cantidad
-     * @throws Exception - cantidad a retirar negativa o saldo insuficiente
+     * @throws Exception cantidad a retirar negativa o saldo insuficiente
      */
     public void retirar(double cantidad) throws Exception
     {
@@ -118,7 +118,7 @@ public class CCuenta {
      * 
      * @deprecated 
      * @see CCuenta#getCuenta() 
-     * @return - número de cuenta 
+     * @return número de cuenta 
      */
     public String obtenerCuenta()
     {
@@ -128,7 +128,7 @@ public class CCuenta {
     /**
      * Obtiene el nombre del propietario
      * 
-     * @return - nombre del propietario
+     * @return nombre del propietario
      */
     public String getNombre() {
         return nombre;
@@ -137,7 +137,7 @@ public class CCuenta {
     /**
      * Establece el nombre del propietario
      * 
-     * @param nombre - nombre del propietario
+     * @param nombre nombre del propietario
      */
     public void setNombre(String nombre) {
         this.nombre = nombre;
@@ -146,7 +146,7 @@ public class CCuenta {
     /**
      * Obtiene el tipo de interés
      * 
-     * @return - tipo de interés
+     * @return tipo de interés
      */
     public double getTipoInterés() {
         return tipoInterés;
@@ -155,7 +155,7 @@ public class CCuenta {
     /**
      * Establece el tipo de interés
      * 
-     * @param tipoInterés - tipo de interes
+     * @param tipoInterés tipo de interes
      */
     public void setTipoInterés(double tipoInterés) {
         this.tipoInterés = tipoInterés;
@@ -164,7 +164,7 @@ public class CCuenta {
     /**
      * Obtiene el número de la cuenta
      * 
-     * @return - número de cuenta
+     * @return número de cuenta
      */
     public String getCuenta() {
         return cuenta;
@@ -173,7 +173,7 @@ public class CCuenta {
     /**
      * Establece el número de la cuenta
      * 
-     * @param cuenta - número de cuenta
+     * @param cuenta número de cuenta
      */
     public void setCuenta(String cuenta) {
         this.cuenta = cuenta;
@@ -182,7 +182,7 @@ public class CCuenta {
     /**
      * Obtiene el saldo
      *  
-     * @return saldo - saldo de la cuenta
+     * @return saldo de la cuenta
      */
     public double getSaldo() {
         return saldo;
@@ -191,7 +191,7 @@ public class CCuenta {
     /**
      * Establece el saldo
      * 
-     * @param saldo - saldo de la cuenta
+     * @param saldo saldo de la cuenta
      */
     public void setSaldo(double saldo) {
         this.saldo = saldo;
