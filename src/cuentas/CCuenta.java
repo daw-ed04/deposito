@@ -62,7 +62,7 @@ public class CCuenta {
      * 
      * @param nom nombre del propietario
      * @see CCuenta#setNombre(String) 
-     * @deprecated remplazado por [@link #setNombre(String)}
+     * @deprecated remplazado por {@link #setNombre(String)}
      */
     public void asignarNombre(String nom)
     {
