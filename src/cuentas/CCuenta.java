@@ -14,10 +14,14 @@ package cuentas;
  */
 public class CCuenta {
 
-    /** Nombre del propietario de la cuenta */
+    /** 
+     * Nombre del propietario de la cuenta
+     */
     private String nombre;
     
-    /** Código de la cuenta bancaria */
+    /** 
+     * Código de la cuenta bancaria
+     */
     private String cuenta;
     
     /** Saldo de la cuenta */
