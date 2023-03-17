@@ -37,9 +37,7 @@ public class CCuenta {
     /**
      * Método constructor sin parámetros
      */
-    public CCuenta()
-    {
-    }
+    public CCuenta() {}
 
     /**
      * Método constructor mediante el que se 

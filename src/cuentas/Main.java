@@ -18,10 +18,13 @@ public class Main {
     }
 
     private static void operativa_cuenta(Float cantidad) {
+        
         CCuenta miCuenta;
         double saldoActual;
+        
         miCuenta = new CCuenta("Antonio López","1000-2365-85-1230456789",2500,0);
         saldoActual = miCuenta.estado();
+        
         System.out.println("El saldo actual es"+ saldoActual );
         try {
             miCuenta.retirar(2300);
