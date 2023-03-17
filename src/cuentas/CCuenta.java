@@ -20,7 +20,7 @@ public class CCuenta {
     private String nombre;
     
     /** 
-     * Código de la cuenta bancaria
+     * Número de la cuenta bancaria
      */
     private String cuenta;
     
@@ -60,9 +60,9 @@ public class CCuenta {
     /**
      * Establece el nombre del propietario
      * 
-     * @deprecated utilizar setNombre()
-     * @see CCuenta#setNombre(String) 
      * @param nom nombre del propietario
+     * @see CCuenta#setNombre(String) 
+     * @deprecated remplazado por [@link #setNombre(String)}
      */
     public void asignarNombre(String nom)
     {
@@ -72,9 +72,9 @@ public class CCuenta {
     /**
      * Obtiene el nombre del propietario
      * 
-     * @deprecated utilizar getNombre()
-     * @see CCuenta#getNombre()
      * @return nombre del propietario 
+     * @see CCuenta#getNombre()
+     * @deprecated remplazado por {@link #getNombre()}
      */
     public String obtenerNombre()
     {
@@ -84,9 +84,9 @@ public class CCuenta {
     /**
      * Devuelve el saldo de la cuenta
      * 
-     * @deprecated utilizar getSaldo()
-     * @see CCuenta#getSaldo()
      * @return saldo
+     * @see CCuenta#getSaldo()
+     * @deprecated remplazado por {@link getSaldo()}
      */
     public double estado()
     {
@@ -124,9 +124,9 @@ public class CCuenta {
     /**
      * Obtiene el número de la cuenta
      * 
-     * @deprecated utilizar getCuenta()
-     * @see CCuenta#getCuenta() 
      * @return número de cuenta 
+     * @see CCuenta#getCuenta() 
+     * @deprecated remplazado por {@link #getCuenta()}
      */
     public String obtenerCuenta()
     {
