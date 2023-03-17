@@ -24,10 +24,14 @@ public class CCuenta {
      */
     private String cuenta;
     
-    /** Saldo de la cuenta */
+    /** 
+     * Saldo de la cuenta
+     */
     private double saldo;
     
-    /** Tipo de interés aplicado */
+    /**
+     * Tipo de interés aplicado
+     */
     private double tipoInterés;
 
     /**
